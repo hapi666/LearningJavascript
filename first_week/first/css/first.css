@@ -1,0 +1,45 @@
+.loginForm{
+	
+	text-align: center;
+	
+	position: center;
+}
+
+#qiangdu{
+	color: red;
+	font-size: 20px;
+	width: 20%;
+	background: #0099FF;
+	border: double;
+}
+
+#zhuce:hover {
+    background: #009933;
+}
+
+input {
+	text-align: center;
+	width: 20%;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 70px;
+    outline-style: none;
+    border: 0;
+    background: #E0E0E0;
+    margin-bottom: 7px;
+}
+
+body {
+	background: #0099FF;
+}
+
+#tishi{
+	color: #6A5ACD;
+	font-size: 9px;
+}
+
+#title{
+	color: white;
+	font-size: 30px;
+	text-align: center;
+}
