@@ -1,0 +1,19 @@
+#dishes {
+	width:198px;
+	height:66px;
+	padding:10px;
+	border:1px solid #aaaaaa;
+}
+
+#customer{
+	width:198px;
+	height:66px;
+	padding:10px;
+	border:1px solid #aaaaaa;
+}
+
+body{
+	position: relative;
+	margin: 100px auto;
+	margin-left: 400px;
+}
