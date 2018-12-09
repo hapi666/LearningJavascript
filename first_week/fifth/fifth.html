@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>第一周/第一天/第五个</title>
+	<link rel="stylesheet" type="text/css" href="./css/fifth.css">
+</head>
+<body>
+	<table class="shopingTable" border="0" cellspacing="10px" cellpadding="20px">
+		<thead>
+			<tr>
+				<th></th>
+		        <th>商品</th>
+		        <th>单价</th>
+		        <th>数量</th>
+		        <th>操作</th>
+			</tr>
+		</thead>
+		<tbody id="goods">
+			<tr>
+				<td class="checkbox"><input class="check-one check" type="checkbox"/></td>
+				<td>
+					MacBookPro
+				</td>
+				<td id="price1">
+					16666
+				</td>
+				<td class="numbers">
+					1
+				</td>
+				<td>
+					<button class="delete">删除</button>
+				</td>
+			</tr>
+			<tr>
+				<td class="checkbox"><input class="check-one check" type="checkbox"/></td>
+				<td>
+					iphone X Max
+				</td>
+				<td id="price2">
+					8700
+				</td>
+				<td class="numbers">
+					1
+				</td>
+				<td>
+					<button class="delete">删除</button>
+				</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<th>
+					<label class="fl select-all"><input type="checkbox" class="check-all check"/>&nbsp;全选</label>
+				</th>
+				<th class="total">合计：</th>
+				<th id="totalMoney"></th>
+				<th></th>
+				<th>
+					<input type="submit" id="order" value="提交订单">
+				</th>
+			</tr>
+		</tfoot>
+	</table>
+</body>
+
+	<script src="js/jquery-3.3.1.js"></script>
+	<script src="./js/fifth.js"></script>
+</html>

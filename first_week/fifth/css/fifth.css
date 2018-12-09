@@ -1,0 +1,18 @@
+.shopingTable{
+	text-align: center;
+}
+
+#order:hover{
+	border-radius: 50px;
+    outline-style: none;
+    background: #0099FF;
+}
+
+.delete{
+	border-radius: 70px;
+    outline-style: none;
+}
+
+.total {
+	text-align: right;
+}
